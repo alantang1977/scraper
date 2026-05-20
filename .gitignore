@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Cache and temporary files
+cache/*
+!cache/validation_cache.json
+*.log
+sources/*.m3u
+filtered/*.m3u
+
+# Ignore output m3u files first, then un-ignore specific ones
+output/*.m3u
+!output/hk_merged.m3u
+!output/all_merged.m3u
+!output/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
