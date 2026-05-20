@@ -118,6 +118,54 @@ SOURCES = [
         "name": "free-tv-uk",
         "url": "https://raw.githubusercontent.com/Free-TV/IPTV/master/lists/uk.md",
         "priority": 6
+    },
+    # ========== 以下为新增源（按示例格式移植）==========
+    {
+        "name": "🦸┃tangTV「直播」",
+        "url": "https://gh-proxy.org/https://raw.githubusercontent.com/alantang1977/JunTV/refs/heads/main/output/result.m3u",
+        "priority": 3
+    },
+    {
+        "name": "🛬┃iptv_api直播",
+        "type": 0,
+        "url": "https://gh-proxy.org/https://raw.githubusercontent.com/alantang1977/iptv_api/refs/heads/main/output/live_ipv4.m3u",
+        "playerType": 1,
+        "priority": 3
+    },
+    {
+        "name": "🐍┃易发港🇭🇰澳「直播」",
+        "type": 0,
+        "ua": "okhttp/3.15",
+        "url": "https://gh-proxy.org/https://raw.githubusercontent.com/fafa002/yf2025/refs/heads/main/yiyifafa.txt",
+        "priority": 3
+    },
+    {
+        "name": "🖨️┃港湾「直播」",
+        "type": 0,
+        "url": "http://pan.wdrjk.top/down.php/aad56aa7a7610097bc103077064f0bcb.txt",
+        "playerType": 1,
+        "priority": 4
+    },
+    {
+        "name": "🧊┃全球揾定「華哥TV」",
+        "type": 0,
+        "url": "https://gh-proxy.org/https://raw.githubusercontent.com/swhtv/1/refs/heads/main/swtvlive",
+        "playerType": 1,
+        "priority": 4
+    },
+    {
+        "name": "📱┃飞扬咪咕「直播」",
+        "type": 0,
+        "url": "https://l.gmbbk.com/upload/39183918.txt",
+        "playerType": 1,
+        "priority": 5
+    },
+    {
+        "name": "🚣🏻┃全国地区「直播」",
+        "type": 0,
+        "url": "https://iboxfree.neocities.org/555.txt",
+        "playerType": 1,
+        "priority": 5
     }
 ]
 
